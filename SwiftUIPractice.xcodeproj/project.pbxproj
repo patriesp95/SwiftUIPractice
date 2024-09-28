@@ -11,6 +11,13 @@
 		00ADDE702CA359420015FE77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADDE6F2CA359420015FE77 /* ContentView.swift */; };
 		00ADDE722CA359430015FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ADDE712CA359430015FE77 /* Assets.xcassets */; };
 		00ADDE752CA359430015FE77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ADDE742CA359430015FE77 /* Preview Assets.xcassets */; };
+		00BDEB5A2CA5C6FC003D5012 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB592CA5C6FC003D5012 /* ZStackView.swift */; };
+		00BDEB5D2CA5FB01003D5012 /* AvocadoCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB5C2CA5FB01003D5012 /* AvocadoCardsView.swift */; };
+		00BDEB5F2CA5FF87003D5012 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB5E2CA5FF87003D5012 /* Extensions.swift */; };
+		00BDEB612CA7FBBB003D5012 /* JobsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB602CA7FBBB003D5012 /* JobsCardView.swift */; };
+		00BDEB632CA7FE41003D5012 /* ScrollStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB622CA7FE41003D5012 /* ScrollStackView.swift */; };
+		00BDEB652CA83864003D5012 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB642CA83864003D5012 /* Modifiers.swift */; };
+		00BDEB672CA83876003D5012 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDEB662CA83876003D5012 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		00ADDE6F2CA359420015FE77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00ADDE712CA359430015FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00ADDE742CA359430015FE77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00BDEB592CA5C6FC003D5012 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		00BDEB5C2CA5FB01003D5012 /* AvocadoCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoCardsView.swift; sourceTree = "<group>"; };
+		00BDEB5E2CA5FF87003D5012 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00BDEB602CA7FBBB003D5012 /* JobsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsCardView.swift; sourceTree = "<group>"; };
+		00BDEB622CA7FE41003D5012 /* ScrollStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackView.swift; sourceTree = "<group>"; };
+		00BDEB642CA83864003D5012 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		00BDEB662CA83876003D5012 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				00ADDE6D2CA359420015FE77 /* SwiftUIPracticeApp.swift */,
 				00ADDE6F2CA359420015FE77 /* ContentView.swift */,
+				00BDEB592CA5C6FC003D5012 /* ZStackView.swift */,
+				00BDEB5C2CA5FB01003D5012 /* AvocadoCardsView.swift */,
+				00BDEB602CA7FBBB003D5012 /* JobsCardView.swift */,
+				00BDEB622CA7FE41003D5012 /* ScrollStackView.swift */,
+				00BDEB5E2CA5FF87003D5012 /* Extensions.swift */,
+				00BDEB642CA83864003D5012 /* Modifiers.swift */,
+				00BDEB662CA83876003D5012 /* Styles.swift */,
 				00ADDE712CA359430015FE77 /* Assets.xcassets */,
 				00ADDE732CA359430015FE77 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BDEB672CA83876003D5012 /* Styles.swift in Sources */,
+				00BDEB5F2CA5FF87003D5012 /* Extensions.swift in Sources */,
 				00ADDE702CA359420015FE77 /* ContentView.swift in Sources */,
+				00BDEB612CA7FBBB003D5012 /* JobsCardView.swift in Sources */,
 				00ADDE6E2CA359420015FE77 /* SwiftUIPracticeApp.swift in Sources */,
+				00BDEB652CA83864003D5012 /* Modifiers.swift in Sources */,
+				00BDEB632CA7FE41003D5012 /* ScrollStackView.swift in Sources */,
+				00BDEB5D2CA5FB01003D5012 /* AvocadoCardsView.swift in Sources */,
+				00BDEB5A2CA5C6FC003D5012 /* ZStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
